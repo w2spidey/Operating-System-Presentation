@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proactive Threat Detection</title>
+  <style>
+    /* ---------- Global Styles ---------- */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #2563eb, #1e40af);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1e293b;
+      padding: 0.7rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #f8fafc;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      color: #38bdf8;
+      transform: scale(1.1);
+    }
+
+    /* ---------- Sections ---------- */
+    section {
+      padding: 3rem 8%;
+      transition: all 0.3s ease;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #38bdf8;
+    }
+    .content-box {
+      background: #1e293b;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .content-box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.6);
+    }
+    ul li, ol li {
+      margin: 0.5rem 0;
+      transition: color 0.3s ease, transform 0.2s ease;
+    }
+    ul li:hover, ol li:hover {
+      color: #38bdf8;
+      transform: translateX(5px);
+      cursor: pointer;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111827;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.8rem; }
+      section { padding: 2rem 5%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Proactive Threat Detection & Response</h1>
+    <p>Enhancing OS security through predictive monitoring and adaptive defense</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#intro">Introduction</a>
+    <a href="#problem">Problem</a>
+    <a href="#method">Methodology</a>
+    <a href="#features">Features</a>
+    <a href="#outcomes">Outcomes</a>
+    <a href="#apps">Applications</a>
+    <a href="#future">Future</a>
+  </nav>
+
+  <!-- Sections -->
+  <section id="intro">
+    <h2>Introduction</h2>
+    <div class="content-box">
+      <p>Cyber threats are rapidly increasing, targeting operating systems worldwide. Traditional security methods are reactive—detecting after damage has occurred. Our solution focuses on proactive, adaptive, and automated defense mechanisms to ensure confidentiality, integrity, and availability of systems.</p>
+    </div>
+  </section>
+
+  <section id="problem">
+    <h2>Problem Statement</h2>
+    <div class="content-box">
+      <ul>
+        <li>Increasing sophistication of malware and zero-day attacks.</li>
+        <li>Slow manual response leading to downtime & data breaches.</li>
+        <li>Lack of adaptive frameworks across multiple platforms.</li>
+        <li>High demand for real-time security in cloud, enterprise & personal systems.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="method">
+    <h2>Proposed Methodology</h2>
+    <div class="content-box">
+      <ol>
+        <li><b>Monitoring Layer</b> → Collects system activity</li>
+        <li><b>Modeling/Prediction Engine</b> → Learns normal vs abnormal behavior</li>
+        <li><b>Detection Engine</b> → Flags anomalies in real time</li>
+        <li><b>Response Module</b> → Automated countermeasures</li>
+        <li><b>Continuous Learning</b> → Improves system over time</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="content-box">
+      <ul>
+        <li>Real-time anomaly detection</li>
+        <li>Automated incident response</li>
+        <li>Adaptive learning against evolving threats</li>
+        <li>Cross-platform compatibility</li>
+        <li>Minimal performance impact</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="outcomes">
+    <h2>Expected Outcomes</h2>
+    <div class="content-box">
+      <ul>
+        <li>Reduced vulnerabilities</li>
+        <li>Faster detection & response</li>
+        <li>Improved system reliability</li>
+        <li>Strong defense against zero-day threats</li>
+        <li>Scalable security framework</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Applications</h2>
+    <div class="content-box">
+      <ul>
+        <li>Enterprise IT Security (servers, workstations)</li>
+        <li>Cloud Operating Systems (VMs, data centers)</li>
+        <li>Personal Devices (Windows, Linux, Android)</li>
+        <li>Critical Infrastructure (healthcare, banking, IoT)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="future">
+    <h2>Future Scope</h2>
+    <div class="content-box">
+      <ul>
+        <li>AI/ML integration for predictive threat intelligence</li>
+        <li>Support for IoT & edge devices</li>
+        <li>Shared global threat databases</li>
+        <li>Advanced visualization dashboards</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contributors: Kunwar Ayaan Ahmed | Nikhil Velayudham | Riya Raj</p>
+    <p>Faculty: Dr. U. Kartikeyan</p>
+  </footer>
+
+</body>
+</html>
